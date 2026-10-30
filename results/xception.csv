@@ -1,0 +1,11 @@
+method,image_auc_pct,delta_auc_pp,accuracy_pct,balanced_accuracy_pct,video_auc_pct,seed,notes
+random,72.13,0,60.12,64.19,76.21,0,five external datasets macro average
+face_size,71.11,-1.02,60.62,63.00,74.36,0,single attribute
+face_position,74.62,2.49,64.35,66.47,78.16,0,single attribute
+head_pose,73.89,1.76,64.08,66.97,77.75,0,single attribute
+resolution,73.31,1.18,62.39,65.83,77.62,0,single attribute
+sharpness_initial,74.36,2.23,68.85,65.81,78.07,0,separate initial run; not a matched repeat of later sweep
+sharpness_rerun,73.98,1.85,64.51,66.76,77.86,0,single attribute sweep
+border,74.46,2.33,63.23,66.39,78.14,0,single attribute
+equal_six,73.52,1.39,62.02,65.37,77.60,0,six representative attributes
+source_difference,70.29,-1.84,62.94,63.75,72.95,0,automatic weighting ablation
